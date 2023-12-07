@@ -1,0 +1,38 @@
+name: login
+description: Simple Firebase Login
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  firebase_core: ^2.15.1
+  firebase_analytics: ^10.4.5
+  firebase_auth: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# Pacote para indicador de páginas
+  smooth_page_indicator: ^1.1.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/PlantCare2.png
+    - assets/icons/IconAgua.png
+    - assets/icons/IconPlant.png
+    - assets/icons/ph_sun-light.png
+    - assets/icons/cacto.png
+    
+  
